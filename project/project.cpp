@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Enter A and B: ";
+    int a, b;
+    cin >> a >> b;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
